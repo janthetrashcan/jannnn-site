@@ -5,6 +5,7 @@
     --color-primary-bg: #2A4759;
     --color-on-primary-bg: #EEEEEE;
     --color-secondary: #DDDDDD;
+    --breakpoint-xs: 30rem;
 
     --font-display: "Raleway", "sans-serif";
 }

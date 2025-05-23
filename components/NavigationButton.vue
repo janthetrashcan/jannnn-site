@@ -35,6 +35,6 @@ const props = defineProps({
             >
 
             <Icon :name="$route.path !== props.to ? props.iconDefault : props.iconSelected" class="text-2xl" />
-            <p class="ml-0 md:ml-3">{{ props.label }}</p>
+            <p class="mt-1 md:mt-0 ml-0 md:ml-3 text-sm xs:text-lg">{{ props.label }}</p>
         </NuxtLink>
 </template>
