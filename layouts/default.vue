@@ -1,11 +1,11 @@
 <template>
-    <div class="font-display z-50 bg-primary-bg min-h-screen overflow-y-auto">
+    <div class="font-display z-50 bg-primary-bg min-h-screen max-w-screen overflow-y-auto">
         <div class="flex flex-col sm:flex-row h-screen">
             <div class="flex flex-col w-full sm:w-1/5 p-4">
                 <Sidebar />
             </div>
 
-            <div class="flex-1 p-8 text-on-primary-bg overflow-y-hidden overflow-x-hidden">
+            <div class="flex-1 p-8 text-on-primary-bg overflow-x-hidden">
                 <slot />
             </div>
         </div>  
