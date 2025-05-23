@@ -3,7 +3,7 @@
         <NuxtImg
         src="/img/logo-white.png"
         alt="Logo"
-        class="w-16 object-cover mb-0 sm:mb-8 mt-8 ml-4 mr-8 sm:mr-0"
+        class="hidden sm:block w-16 object-cover mb-0 sm:mb-8 mt-8 ml-4 mr-8 sm:mr-0"
         />
 
         <NavigationButton label="Home" to="/" iconDefault="mingcute:home-2-line" iconSelected="mingcute:home-2-fill" />

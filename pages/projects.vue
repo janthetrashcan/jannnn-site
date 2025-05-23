@@ -6,28 +6,28 @@
             <ProjectCard
                 title="EduQuest"
                 description="Gamified web app helping children with learning differences learn through tracing and number-matching games."
-                image="/img/projects/eduquest.png"
+                image="/img/projects/project1.png"
                 link="https://adzu-bluecode.vercel.app/"
                 githubRepo="https://github.com/AJ-Orillineda/adzu-bluecode"
                 />
             <ProjectCard
                 title="NSTP Profiling System for AdZU"
                 description="Offline management system for student data with spreadsheet import/export. "
-                image="/img/projects/eduquest.png"
+                image="/img/projects/project2.png"
                 link=""
                 githubRepo="https://github.com/janthetrashcan/nstp-profiling-system"
                 />
             <ProjectCard
                 title="COMTECH School Website"
                 description="School website with admissions system for course applications and admin approvals. "
-                image="/img/projects/eduquest.png"
+                image="/img/projects/project3.png"
                 link="https://comtech-site.onrender.com/"
                 githubRepo=""
                 />
             <ProjectCard
                 title="EaglesEye"
                 description="Android app featuring an interactive campus map with office locations for students and visitors."
-                image="/img/projects/eduquest.png"
+                image="/img/projects/project4.jpg"
                 link=""
                 githubRepo="https://github.com/janthetrashcan/EaglesEye"
                 />
