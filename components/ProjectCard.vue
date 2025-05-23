@@ -37,7 +37,7 @@ const props = defineProps({
 
 <template>
     <div class="flex flex-col w-full items-start justify-between border-2 border-on-primary-bg/20 rounded-2xl overflow-hidden">
-        <NuxtImg class="object-cover w-full h-48 rounded-lg mb-4" fit="cover" />
+        <NuxtImg src="{{ props.image }}" class="object-cover w-full h-48 rounded-lg mb-4" fit="cover" />
        
         <div class="flex flex-col px-4 pt-4 gap-1">
             <h class="text-primary text-2xl font-bold">{{ props.title }}</h>
