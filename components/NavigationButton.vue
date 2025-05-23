@@ -27,14 +27,14 @@ const props = defineProps({
 
 <template>
         <NuxtLink :to="props.to"
-            class="text-lg py-2 px-4 w-full flex items-center justify-start rounded-xl transition-all duration-100 ease-in-out active:scale-97"
+            class="text-lg py-2 px-4 w-full flex flex-col md:flex-row items-center justify-center md:justify-start rounded-xl transition-all duration-100 ease-in-out active:scale-97"
             :class="{
                 'font-normal text-on-primary-bg hover:font-bold': $route.path !== props.to,
                 'font-bold text-primary hover:text-on-primary-bg bg-primary/10': $route.path === props.to,
             }"
             >
 
-            <Icon :name="$route.path !== props.to ? props.iconDefault : props.iconSelected" class="mr-3" />
-            <p>{{ props.label }}</p>
+            <Icon :name="$route.path !== props.to ? props.iconDefault : props.iconSelected" class="text-2xl" />
+            <p class="ml-0 md:ml-3">{{ props.label }}</p>
         </NuxtLink>
 </template>

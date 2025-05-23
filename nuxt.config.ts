@@ -24,10 +24,10 @@ export default defineNuxtConfig({
     '~/assets/css/transitions.css',
   ],
   app: {
-    // pageTransition: {
-    //   name: 'page',
-    //   mode: 'out-in'
-    // },
+    head: {
+      viewport: 'width=device-width, initial-scale=1',
+      title: 'Jan - Portfolio',
+    }
   },
   vite: {
     plugins: [
@@ -36,6 +36,7 @@ export default defineNuxtConfig({
   },
   image: {
     dir: 'public',
+    domains: ['localhost'],
     formats: ['webp', 'jpg', 'png', 'svg'],
   }
 });

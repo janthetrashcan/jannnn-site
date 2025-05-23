@@ -5,7 +5,7 @@ const bodyText = "Hi! I'm Jan. I'm a third-year Computer Science student at Aten
 </script>
 
 <template>
-    <div class="cursor-default pr-48">
+    <div class="cursor-default pr-0 lg:pr-48">
         <div class="flex flex-col gap-8">
             <AboutCard title="About Me">
                 <template #content>
