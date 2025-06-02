@@ -40,7 +40,7 @@ const props = defineProps({
         <NuxtImg :src="props.image" class="object-cover w-full h-48 rounded-lg mb-4" fit="cover" />
        
         <div class="flex flex-col px-4 pt-4 gap-1">
-            <h class="text-primary text-2xl font-bold">{{ props.title }}</h>
+            <h1 class="text-primary text-2xl font-bold">{{ props.title }}</h1>
             <p class="text-on-primary-bg text-lg">{{ props.description }}</p>
         </div>
 

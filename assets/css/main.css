@@ -9,3 +9,7 @@
 
     --font-display: "Raleway", "sans-serif";
 }
+
+@utility no-scrollbar {
+  @apply [scrollbar-width:none] [&::-webkit-scrollbar]:hidden;
+}

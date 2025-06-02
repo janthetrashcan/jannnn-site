@@ -1,6 +1,6 @@
 <template>
     <div class="max-w-full overflow-x-hidden">
-        <NuxtImg src="/img/header-img.jpg" class="w-full h-16 mb-10 object-cover rounded-2xl" alt="Header image" fit="cover" />
+        <!-- <NuxtImg src="/img/header-img.jpg" class="w-full h-16 mb-10 object-cover rounded-2xl" alt="Header image" fit="cover" /> -->
 
         <div class='cursor-default font-display pr-0 lg:pr-48'>
             <div class='flex flex-col gap-2'>
