@@ -9,7 +9,7 @@
                 <Header />
             </div>
 
-            <main class="flex-1 p-8 text-on-primary-bg max-sm:mt-[12%] max-md:mb-32 sm:ml-[18%] overflow-y-auto">
+            <main class="flex-1 p-8 text-on-primary-bg max-sm:mt-[16%] max-md:mb-32 sm:ml-[18%] overflow-y-auto">
                 <slot />
             </main>
         </div>  

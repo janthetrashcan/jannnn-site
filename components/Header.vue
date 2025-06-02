@@ -17,7 +17,7 @@ const props = defineProps({
         <NuxtImg
         src="/img/logo-white.png"
         alt="Logo"
-        class="object-cover h-10 w-fit"
+        class="object-cover h-8 w-fit"
         />
     </header>
 </template>
